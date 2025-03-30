@@ -40,6 +40,7 @@ function Quiz() {
 
       {currentQuestion ? (
         <div className="w-full max-w-2xl bg-white p-6 rounded shadow-md">
+          <h2 className="text-xl font-semibold text-blue-600 mb-4 text-center">{currentQuestion.title}</h2>
           <h2 className="text-lg font-semibold mb-4 text-center text-black">{currentQuestion.question}</h2>
           <div className="space-y-3 mb-6">
             {['a', 'b', 'c', 'd'].map((key) => (

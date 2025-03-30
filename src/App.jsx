@@ -12,7 +12,7 @@ function App() {
         {/* Top Right Login Button */}
         <div className="w-full flex justify-end mt-4">
           <Link to="/login">
-           <button className="bg-blue-600 text-white font-semibold px-4 py-2 rounded shadow mr-2 hover:bg-blue-700">
+           <button className="bg-yellow-500 text-white font-semibold px-4 py-2 rounded shadow mr-2 hover:bg-blue-700">
              Login
             </button>
           </Link>
